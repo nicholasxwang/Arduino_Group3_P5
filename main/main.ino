@@ -75,7 +75,6 @@ void loop() {
   }
   ////////////////////////////////////////////////////////////////////////
   while (digitalRead(RIGHT1) == LOW) {
-
     if (angle1 > 0 && angle1 <= 180) {
       angle1 = angle1 - angleStep;
       if (angle1 < 0) {
